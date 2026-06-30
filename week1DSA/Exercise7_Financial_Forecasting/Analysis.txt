@@ -1,0 +1,15 @@
+Time Complexity :-
+The recursive function is called once for each year.
+Therefore, the time complexity is: O(n)
+where n is the number of years.
+
+
+Space Complexity :- The recursive calls are stored in the call stack.
+O(n)
+
+
+How to Optimize?
+The recursive solution can be optimized by:
+Using an iterative approach to avoid recursive function calls.
+Using Dynamic Programming (Memoization) if recursive calculations involve repeated subproblems.
+In this example, since each recursive call is made only once, an iterative solution is generally preferred for better memory efficiency.

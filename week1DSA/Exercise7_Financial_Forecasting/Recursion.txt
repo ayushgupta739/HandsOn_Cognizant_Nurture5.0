@@ -1,0 +1,8 @@
+What is Recursion?
+Recursion is a programming technique in which a method calls itself to solve a problem. It breaks a large problem into smaller subproblems until a base condition is reached.
+It is useful for problems that can be divided into similar smaller tasks.
+
+
+
+
+

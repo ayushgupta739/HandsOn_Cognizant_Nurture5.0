@@ -1,0 +1,42 @@
+Big O Notation :- 
+
+Big O notation is used to measure the efficiency of an algorithm. It tells us how the running time or memory usage increases as the input size grows.
+
+For example:-
+
+O(1) – Constant time
+O(log n) – Logarithmic time
+O(n) – Linear time
+O(n²) – Quadratic time
+
+
+
+
+Best, Average and Worst Case :-
+
+Linear Search
+Best Case: O(1) (Item found at the first position)
+Average Case: O(n)
+Worst Case: O(n) (Item found at the last position or not found)
+
+
+Binary Search :- Binary search works only on sorted data.
+
+Best Case: O(1) (Item found in the middle)
+Average Case: O(log n)
+Worst Case: O(log n)
+
+
+
+
+
+Which algorithm is better?
+
+Linear Search :-
+Works on both sorted and unsorted arrays.
+Suitable for small datasets.
+
+Binary Search:-
+Requires the array to be sorted.
+Much faster for large datasets.
+Suitable for an e-commerce platform because product databases usually contain thousands or millions of products, and searching needs to be efficient.
