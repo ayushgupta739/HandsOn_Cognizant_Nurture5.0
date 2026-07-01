@@ -1,0 +1,20 @@
+BEGIN
+    FOR customerRecord IN
+    (
+        SELECT l.LoanID
+        FROM Customers c
+        JOIN Loans l
+        ON c.CustomerID = l.CustomerID
+        WHERE c.Age > 60
+    )
+    LOOP
+        UPDATE Loans
+        SET InterestRate = InterestRate - 1
+        WHERE LoanID = customerRecord.LoanID;
+    END LOOP;
+
+    COMMIT;
+
+    DBMS_OUTPUT.PUT_LINE('Interest rates updated successfully.');
+END;
+/
